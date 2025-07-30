@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and sensitive data
+email_config.json
+gmail_credentials.json
+gmail_token.pickle
+*.pickle
+credentials.json
+token.json
+
+# API Keys
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+email_aggregator.db
+
+# Logs
+*.log
+logs/
+
+# Email summaries
+email_summary.txt
+email_summary_*.txt
+
+# ChromaDB
+.chroma/
+chroma_db/
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Cache
+.cache/
+__pycache__/
+
+# Private notes
+notes.txt
+TODO.txt

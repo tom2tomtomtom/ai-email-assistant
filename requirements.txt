@@ -1,0 +1,28 @@
+# Core email libraries
+imaplib
+email
+
+# Gmail API
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.127.0
+
+# Microsoft Graph API
+msal==1.28.0
+requests==2.31.0
+
+# AI/LLM providers
+openai==1.30.1
+anthropic==0.25.1
+google-generativeai==0.5.0
+
+# Vector database for semantic search (optional)
+chromadb==0.4.0
+
+# Scheduling and utilities
+schedule==1.2.0
+
+# Development dependencies (optional)
+pytest==7.4.0
+black==23.7.0
+flake8==6.1.0
