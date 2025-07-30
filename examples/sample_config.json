@@ -1,0 +1,68 @@
+{
+  "ai": {
+    "provider": "openai",
+    "api_key": "your-openai-api-key-here",
+    "enable_semantic_search": true,
+    "model_preferences": {
+      "summary_model": "gpt-4",
+      "compose_model": "gpt-4",
+      "temperature": 0.7
+    }
+  },
+  "accounts": [
+    {
+      "type": "gmail",
+      "email": "your.email@gmail.com",
+      "credentials_file": "gmail_credentials.json",
+      "token_file": "gmail_token.pickle",
+      "enabled": true
+    },
+    {
+      "type": "yahoo",
+      "email": "your.email@yahoo.com",
+      "password": "your-app-specific-password",
+      "enabled": true
+    },
+    {
+      "type": "icloud",
+      "email": "your.email@icloud.com",
+      "app_password": "xxxx-xxxx-xxxx-xxxx",
+      "enabled": true
+    },
+    {
+      "type": "microsoft",
+      "email": "your.email@outlook.com",
+      "client_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "client_secret": "your-client-secret",
+      "tenant_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "check_interval": "08:00",
+    "summary_email": "your-summary@example.com",
+    "priority_senders": [
+      "boss@company.com",
+      "important.client@example.com"
+    ],
+    "urgent_keywords": [
+      "urgent",
+      "asap",
+      "deadline",
+      "critical",
+      "important",
+      "action required"
+    ],
+    "categories": {
+      "custom_categories": [
+        "Project Updates",
+        "Client Communications",
+        "Team Announcements"
+      ]
+    },
+    "database": {
+      "path": "email_aggregator.db",
+      "retention_days": 90
+    }
+  }
+}
